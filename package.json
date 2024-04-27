@@ -1,0 +1,31 @@
+{
+  "name":  "typescript-nodeprojects-oop-mybank",
+  "version": "1.0.0",
+  "description": "This code implements a simple command-line bank management system using TypeScript. It allows users to create a customer profile, perform various banking actions like viewing information, depositing funds (credit), withdrawing funds (debit), and checking their balance.",
+  "main": "dist/index.js",
+  "bin": {
+    "eighty-m": "./dist/index.js"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Bank Management System","Command Line Interface (CLI)","User Interaction","Account Management","Credit/Debit","Transactions","JavaScript","inquirer","figlet","chalk-animation","chalk"],
+  "author": "Mirza Muhammad Ahmed (00263838)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7"
+  }
+}
